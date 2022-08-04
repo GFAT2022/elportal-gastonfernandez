@@ -84,9 +84,6 @@ h2{
     font-size: 1.5vh;
 }
 
-.mainFeatured{
-    /*background-color: aqua;*/
-}
 
 .card{
     /*background-color: blueviolet;*/
@@ -123,13 +120,12 @@ h2{
     text-align: center;   
 }
 
-.aboutme__box2{
-    /*background-color: chocolate;*/
-}
+
 
 .aboutme__box2__img{
     max-width: 67vw;
     max-height: 67vh;
+    
 }
 
 .mainContact{
@@ -162,6 +158,37 @@ h3{
     flex-direction: column;
     justify-content: center;
 }
+
+
+.li:hover{
+    background-color: yellow;
+}
+
+
+
+.footerIndex{
+    animation-name: cambiocolor;
+    animation-duration: 3s;
+}
+
+
+
+
+@keyframes cambiocolor{
+    from{
+        background-color: brown;
+    }
+
+    to{
+        background-color: violet;
+    }
+
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 320px) {
