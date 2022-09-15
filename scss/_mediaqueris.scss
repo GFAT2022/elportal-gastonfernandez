@@ -1,0 +1,67 @@
+@media screen and (max-width: 720px) {
+
+    .contenedor__header__ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    .contenedor__main__galeria {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .contenedor__main__galeria__img {
+        margin: 0.5rem;
+        max-width: 83vw;
+        max-height: 83vh;
+    }
+
+    .contenedor__main__featured__card__img {
+        max-width: 100vw;
+        max-height: 100vh;
+        background-color: burlywood;
+    }
+
+    .contenedor__main__aboutMe__parrafo {
+        width: 100%;
+    }
+
+    .contenedor__main__aboutMe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor__main__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor__main__contact__form {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .contenedor__main__contact__form__box {
+        text-align: center;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .contenedor__main__contact__form__box__input {
+        width: 70vw;
+    }
+
+    .contenedor__main__featured {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

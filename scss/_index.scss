@@ -1,0 +1,107 @@
+.contenedor__header__ul {
+    height: 100%;
+    list-style-type: none;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contenedor__header__ul__li {
+        margin-right: 5rem;
+        padding-right: 2rem;
+        padding-left: 1rem;
+        display: flex;
+
+    }
+}
+
+.contenedor__main__home__section {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 15vh;
+    background-image: url("../imagenes/imag9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+    h1 {
+        font-family: $FuenteP;
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-family: $FuenteP;
+        font-size: 2rem;
+    }
+
+}
+
+
+.contenedor__footer {
+    background-color: $blanco;
+
+    .contenedor__footer__iconos {
+        text-align: center;
+        background-color: $blanco;
+
+        a {
+            color: rgb(121, 119, 119);
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+
+    }
+
+    .contenedor__footer__cc {
+        background-color: $blanco;
+        padding: 0.5rem;
+
+        h4 {
+            color: rgb(121, 119, 119);
+            font-family: 'Poiret One', cursive;
+            font-weight: bold;
+            text-align: center;
+            background-color: $blanco;
+            font-size: 1.5vh;
+        }
+    }
+}
+
+
+
+
+
+.aMenu{
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+    text-decoration: none;
+    color: rgb(115, 114, 114);
+    letter-spacing: 0.2rem;
+    position: relative;
+}
+.aMenu:after {
+    content: "";
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    left: 0%;
+    height: 0.3vh;
+    width: 100%;
+    background: rgb(43, 31, 92);
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+.aMenu:hover:after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.aMenu{
+    transition: 300ms;
+}
+.aMenu:hover{
+    transform: scale(1.03);
+}

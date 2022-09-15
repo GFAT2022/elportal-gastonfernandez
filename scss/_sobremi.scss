@@ -1,0 +1,25 @@
+.contenedor__main__aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imagenes/imag10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+    .contenedor__main__aboutMe__parrafo {
+        width: 25%;
+        text-align: center;
+
+        h5 {
+            font-family: $FuenteP;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}

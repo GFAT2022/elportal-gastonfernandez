@@ -1,0 +1,17 @@
+.contenedor__main__galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+
+    .contenedor__main__galeria__img {
+        margin: 0.5rem;
+        max-width: 26vw;
+        max-height: 26vh;
+        transition: 300ms;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

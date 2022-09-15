@@ -1,0 +1,55 @@
+.contenedor__main__contact {
+    display: flex;
+    background-image: url("../imagenes/imag13.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+    .contenedor__main__contact__section {
+        background-color: transparent;
+        width: 65%;
+        text-align: center;
+        padding-top: 5vh;
+
+        h3 {
+            text-align: center;
+            color: rgb(251, 251, 251);
+            font-family: 'Poiret One', cursive;
+            font-size: 2rem;
+        }
+
+        .contenedor__main__contact__section__parrafo {
+            color: rgb(251, 251, 251);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    }
+
+    .contenedor__main__contact__form {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin: auto;
+        padding: 1rem;
+        color: rgb(210, 203, 203);
+        border-radius: 0.5rem;
+
+        .contenedor__main__contact__form__box {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            justify-content: center;
+            padding: 1rem;
+            margin: 0.5rem;
+
+            .contenedor__main__contact__form__box__input {
+                outline: none;
+                padding: 0.5rem;
+                width: 25vw;
+            }
+        }
+    }
+}
+
+
+

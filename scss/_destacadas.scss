@@ -1,0 +1,31 @@
+.contenedor__main__featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+
+    .contenedor__main__featured__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .contenedor__main__featured__card__parrafo {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(129, 129, 129);
+            text-align: center;
+        }
+
+        .contenedor__main__featured__card__img {
+            max-width: 48vw;
+            max-height: 62vh;
+            margin-top: 0.5rem;
+            padding: 00.2rem;
+            transition: 300ms;
+
+            &:hover {
+                transform: scale(1.01);
+            }
+        }
+    }
+}
